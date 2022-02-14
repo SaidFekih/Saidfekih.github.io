@@ -54,6 +54,11 @@ section{
     background-attachment:fixed ;
 
 }
+.remarque{
+    color: #fff;
+    font-size: 1.6em;
+    padding-bottom: 2em;
+}
 .main h2{
     color: white;
     font-size: 1.4em;
@@ -144,7 +149,6 @@ section{
     font-weight: 700;
     margin: 10px;
 }
-
 .projects{
     background-color:#000016 ;
 }
