@@ -30,7 +30,7 @@ async function getBreakingBad(){
 
 getBreakingBad();
 
-const myTimeout = setTimeout(selectedActor("Walter White"), 500);
+const myTimeout = setTimeout(selectedActor("Walter White"), 50);
 
 
 
