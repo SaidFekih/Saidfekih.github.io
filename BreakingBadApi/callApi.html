@@ -23,10 +23,10 @@
             <option  v-for="actor in actorsList" v-bind:value="actor">{{actor.name}}</option>
         </select>
         <div class="display-actor" style="display: flex;" class="col-8" v-if="selectedActor">
-            <div class="actor-photo col-8">
+            <div class="actor-photo col-10 col-sm-10 col-md-8">
                 <img class="col-12" :src="selectedActor.img" :alt="selectedActor.name">
             </div>
-            <div class=" actor-info col-4" v-if="selectedActor">
+            <div class=" actor-info col-10 col-sm-10 col-md-3 " v-if="selectedActor">
                 <p>Name : {{selectedActor.name}}</p>
                 <p>Nickname : {{selectedActor.nickname}}</p>
                 <p>Status : {{selectedActor.status}}</p>
@@ -37,13 +37,6 @@
                     <li v-for="(occupation, index) in selectedActor.occupation"> {{index+1}} - {{occupation}}</li>
                 </ul>
             </div>
-        </div>
-
-
-        <div class="card" style="width: 30rem; max-height: 70vh;">
-
-
-
         </div>
     </div>
 </body>
@@ -81,9 +74,8 @@
     }
     li {
         list-style-type: none;
-        color: #05275B;
+        color: #CFE2FF;
     }
-
     .content-app {
         display: flex;
         flex-direction: column;
@@ -101,30 +93,29 @@
     .actor-info {
         padding: 10px;
         margin: 10px;
-        border: solid35px #CFE2FF;
+        border: solid 3px #CFE2FF;
         border-radius: 10px;
         color: #CFE2FF;
         font-weight: 600;
         font-size: 1.2;
+        background-color: #042031;
     }
     .actor-photo {
         padding: 10px;
         margin: 10px;
         border: solid 3px #CFE2FF;
         border-radius: 10px;
-        max-height: 70vh;
     }
-
     .actor-photo img {
         border-radius: 10px;
-        max-height: 70vh;
+        height: auto;
+        max-width: 600px;
+        max-height: 700px;
     }
-
-    @media only screen and (max-width: 700px) {
+    @media only screen and (max-width: 768px) {
     body {
         display: flex;
         flex-direction: column;
-
     }
     .display-actor{
         flex-direction: column;
@@ -132,7 +123,7 @@
         align-items: center;
     }
     .actor-info {
-        color: #042031;
+        color: #CFE2FF;
         font-weight: 600;
         font-size: 1.2;
     }
