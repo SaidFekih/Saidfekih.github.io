@@ -1,235 +1,267 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <script src="commandes.js"></script>
     <title>Acceuil - Said Fekih</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-92C40053YQ"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-92C40053YQ"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag('config', 'G-92C40053YQ');
+      gtag("config", "G-92C40053YQ");
     </script>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <header>
-        <a href="#" class="logo">Said</a>
-        <div class="navigation-wide-screen">
-            <nav class="navigation">
-                <a href="#services">Services</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
-            </nav>
+      <a href="#" class="logo">Said</a>
+      <div class="navigation-wide-screen">
+        <nav class="navigation">
+          <a href="#services">Services</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+      <div class="navigation-small-screen">
+        <a href="#"><i class="fas fa-bars"></i></a>
+        <div class="dropdown-content">
+          <a href="#services">Services</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
         </div>
-        <div class="navigation-small-screen">
-            <a href="#"><i class="fas fa-bars"></i></a>
-            <div class="dropdown-content">
-                <a href="#services">Services</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
-            </div>
-        </div>
-
+      </div>
     </header>
 
     <section class="main">
-        <div>
-
-            <h2>Hello, I'm Said <br><span>Web Developer</span></h2>
-            <h3>I create web solutions that help to simplify work,<br>management and communication.</h3>
-            <p style=" color: #fff; font-size: 1.6em; padding-bottom: 2em;">This website is a personal portfolio which
-                includes some projects I have developed, and I continue to develop them during my free time.</p>
-            <a href="#projects" class="main-btn">View my work</a>
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/in/said-fekih-28ab031bb/" target="_blank"><i
-                        class="fab fa-linkedin"></i></a>
-                <a href=""><i class="fab fa-instagram" style="opacity: 0.5; cursor:none;"></i></a>
-                <a href=""><i class="fab fa-twitter" style="opacity: 0.5; cursor:none;"></i></a>
-                <a href=""><i class="fab fa-facebook" style="opacity: 0.5; cursor:none;"></i></a>
-                <a href="https://github.com/SaidFekih"><i class="fab fa-github"></i></a>
-
-            </div>
+      <div>
+        <h2>Hello, I'm Said <br /><span>Web Developer</span></h2>
+        <h3>
+          I create web solutions that help to simplify work,<br />management and
+          communication.
+        </h3>
+        <p style="color: #fff; font-size: 1.6em; padding-bottom: 2em">
+          This website is a personal portfolio which includes some projects I
+          have developed, and I continue to develop them during my free time.
+        </p>
+        <a href="#projects" class="main-btn">View my work</a>
+        <div class="social-icons">
+          <a
+            href="https://www.linkedin.com/in/said-fekih-28ab031bb/"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href=""
+            ><i class="fab fa-instagram" style="opacity: 0.5; cursor: none"></i
+          ></a>
+          <a href=""
+            ><i class="fab fa-twitter" style="opacity: 0.5; cursor: none"></i
+          ></a>
+          <a href=""
+            ><i class="fab fa-facebook" style="opacity: 0.5; cursor: none"></i
+          ></a>
+          <a href="https://github.com/SaidFekih"
+            ><i class="fab fa-github"></i
+          ></a>
         </div>
+      </div>
     </section>
 
     <section class="cards" id="services">
-        <h2 class="title">Services</h2>
-        <div class="content">
-            <div class="card">
-                <div class="icon">
-                    <i class="fas fa-edit"></i>
-                </div>
-                <div class="info">
-                    <h3> Scritp Writing</h3>
-                    <p>
-                        Research and write scripts for different topics that can then be directly recorded for video
-                        production
-                    </p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="icon">
-                    <i class="fas fa-video"></i>
-                </div>
-                <div class="info">
-                    <h3> Scritp Writing</h3>
-                    <p>
-                        Research and write scripts for different topics that can then be directly recorded for video
-                        production
-                    </p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="icon">
-                    <i class="fas fa-graduation-cap"></i>
-                </div>
-                <div class="info">
-                    <h3> Scritp Writing</h3>
-                    <p>
-                        Research and write scripts for different topics that can then be directly recorded for video
-                        production
-                    </p>
-                </div>
-            </div>
+      <h2 class="title">Services</h2>
+      <div class="content">
+        <div class="card">
+          <div class="icon">
+            <i class="fas fa-edit"></i>
+          </div>
+          <div class="info">
+            <h3>Scritp Writing</h3>
+            <p>
+              Research and write scripts for different topics that can then be
+              directly recorded for video production
+            </p>
+          </div>
         </div>
+
+        <div class="card">
+          <div class="icon">
+            <i class="fas fa-video"></i>
+          </div>
+          <div class="info">
+            <h3>Scritp Writing</h3>
+            <p>
+              Research and write scripts for different topics that can then be
+              directly recorded for video production
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div class="info">
+            <h3>Scritp Writing</h3>
+            <p>
+              Research and write scripts for different topics that can then be
+              directly recorded for video production
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="projects" id="projects">
-        <h2 class="title">Projects</h2>
-        <div class="content">
-
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="images/scroll-website.jpeg" />
-                </div>
-                <div class="project-info">
-                    <p class="porject-category">Scrolling</p>
-                    <strong class="project-title">
-                        <span>Scrolling website</span>
-                        <a href="IndexScrolling-Website.html" target="_blank" class="more-details">See the project</a>
-                    </strong>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="images/planche_dessin.jpg" />
-                </div>
-                <div class="project-info">
-                    <p class="porject-category">CSS drawing</p>
-                    <strong class="project-title">
-                        <span>Draw with CSS & HTML</span>
-                        <a href="../../draw-with-css/Ferb/ferbIndex.html" class="more-details">See the projects</a>
-                    </strong>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="images/camille-couvez-H5PnIYI_1I0-unsplash.jpg" />
-                </div>
-                <div class="project-info">
-                    <p class="porject-category">Call API</p>
-                    <strong class="project-title">
-                        <span>API</span>
-                        <a href="BreakingBadApi/callApi.html" class="more-details">See the projects</a>
-                    </strong>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="images/daniel-olah-pCcGpVsOHoo-unsplash.jpg" />
-                </div>
-                <div class="project-info">
-                    <p class="porject-category">Create backgrounds</p>
-                    <strong class="project-title">
-                        <span>Background Generator</span>
-                        <a href="https://saidfekih.github.io/BackgroundColorGenerator/" class="more-details">More
-                            details</a>
-                    </strong>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="images/efe-kurnaz-RnCPiXixooY-unsplash.jpg" />
-                </div>
-                <div class="project-info">
-                    <p class="porject-category">Script Writing</p>
-                    <strong class="project-title">
-                        <span>Dev Books</span>
-                        <a href="#" class="more-details">More details</a>
-                    </strong>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="images/pawel-czerwinski-KWpm9MmEo2s-unsplash.jpg" />
-                </div>
-                <div class="project-info">
-                    <p class="porject-category">Script Writing</p>
-                    <strong class="project-title">
-                        <span>Dev Books</span>
-                        <a href="#" class="more-details">More details</a>
-                    </strong>
-                </div>
-            </div>
-
+      <h2 class="title">Projects</h2>
+      <div class="content">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/scroll-website.jpeg" />
+          </div>
+          <div class="project-info">
+            <p class="porject-category">Scrolling</p>
+            <strong class="project-title">
+              <span>Scrolling website</span>
+              <a
+                href="IndexScrolling-Website.html"
+                target="_blank"
+                class="more-details"
+                >See the project</a
+              >
+            </strong>
+          </div>
         </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/planche_dessin.jpg" />
+          </div>
+          <div class="project-info">
+            <p class="porject-category">CSS drawing</p>
+            <strong class="project-title">
+              <span>Draw with CSS & HTML</span>
+              <a
+                href="../../draw-with-css/Ferb/ferbIndex.html"
+                class="more-details"
+                >See the projects</a
+              >
+            </strong>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/camille-couvez-H5PnIYI_1I0-unsplash.jpg" />
+          </div>
+          <div class="project-info">
+            <p class="porject-category">Call API</p>
+            <strong class="project-title">
+              <span>API</span>
+              <a href="BreakingBadApi/callApi.html" class="more-details"
+                >See the projects</a
+              >
+            </strong>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/daniel-olah-pCcGpVsOHoo-unsplash.jpg" />
+          </div>
+          <div class="project-info">
+            <p class="porject-category">Create backgrounds</p>
+            <strong class="project-title">
+              <span>Background Generator</span>
+              <a
+                href="https://saidfekih.github.io/BackgroundColorGenerator/"
+                class="more-details"
+                >More details</a
+              >
+            </strong>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/efe-kurnaz-RnCPiXixooY-unsplash.jpg" />
+          </div>
+          <div class="project-info">
+            <p class="porject-category">Script Writing</p>
+            <strong class="project-title">
+              <span>Mnutrition</span>
+              <a href="mnutrition/index.html" class="more-details"
+                >More details</a
+              >
+            </strong>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/pawel-czerwinski-KWpm9MmEo2s-unsplash.jpg" />
+          </div>
+          <div class="project-info">
+            <p class="porject-category">Script Writing</p>
+            <strong class="project-title">
+              <span>Dev Books</span>
+              <a href="#" class="more-details">More details</a>
+            </strong>
+          </div>
+        </div>
+      </div>
     </section>
     <section class="cards contact" id="contact">
-        <h2 class="title">Let's work together</h2>
-        <div class="content">
-            <div class="card">
-                <div class="icon">
-                    <i class="fas fa-phone"></i>
-                </div>
-                <div class="info">
-                    <h3> Phone</h3>
-                    <p> +1 (514) 111-1111</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="icon">
-                    <i class="fas fa-envelope"></i>
-                </div>
-                <div class="info">
-                    <h3> Email</h3>
-                    <p>saidfekih@.com</p>
-                </div>
-            </div>
+      <h2 class="title">Let's work together</h2>
+      <div class="content">
+        <div class="card">
+          <div class="icon">
+            <i class="fas fa-phone"></i>
+          </div>
+          <div class="info">
+            <h3>Phone</h3>
+            <p>+1 (514) 111-1111</p>
+          </div>
         </div>
+
+        <div class="card">
+          <div class="icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="info">
+            <h3>Email</h3>
+            <p>saidfekih@.com</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <footer class="footer">
-        <p class="footer-title">Copyrights @ <span>Said Fekih</span></p>
+      <p class="footer-title">Copyrights @ <span>Said Fekih</span></p>
 
-        <div class="social-icons">
-            <a href=""><i class="fab fa-linkedin"></i></a>
-            <a href=""><i class="fab fa-instagram"></i></a>
-            <a href=""><i class="fab fa-twitter"></i></a>
-            <a href=""><i class="fab fa-facebook"></i></a>
-            <a href=""><i class="fab fa-github"></i></a>
-
-        </div>
+      <div class="social-icons">
+        <a href=""><i class="fab fa-linkedin"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
+        <a href=""><i class="fab fa-facebook"></i></a>
+        <a href=""><i class="fab fa-github"></i></a>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
